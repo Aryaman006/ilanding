@@ -19,20 +19,21 @@ export default function HeroSection() {
             <span className="text-xl">⚙️</span> Working for your success
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-            Maecenas Vitae <br /> Consectetur Led{' '}
-            <span className="text-blue-600">Vestibulum Ante</span>
+            Powering People,
+            {/* Maecenas Vitae <br /> Consectetur Led{' '} */}
+            <span className="text-blue-600">Driving Performance</span>
           </h1>
           <p className="mt-4 text-gray-600">
-            Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-            Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+            End-to-End HR & Talent Solutions for Tomorrow's Workforce
           </p>
           <div className="mt-8 flex items-center gap-4">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full">
-              Get Started
-            </button>
-            <button className="flex items-center gap-2 text-gray-700 font-medium">
+            <a href="#contact" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full">
+  Get Started
+</a>
+
+            {/* <button className="flex items-center gap-2 text-gray-700 font-medium">
               ▶️ Play Video
-            </button>
+            </button> */}
           </div>
         </motion.div>
 

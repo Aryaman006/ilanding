@@ -3,32 +3,32 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Saul Goodman",
-    title: "CEO & Founder",
+    title: "Founder, FinTech Startup",
     avatar: "/testimonials-1.png",
     rating: 5,
-    text: `Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.`,
+    text: 'HireX helped us double our team size while maintaining culture and quality.'
   },
   {
     name: "Sara Wilsson",
-    title: "Designer",
+    title: "HR Head, Healthcare Group",
     avatar: "/testimonials-2.jpg",
     rating: 5,
-    text: `Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.`,
+    text: `Their policy drafting and HRMS rollout were spot on.`,
   },
-  {
-    name: "Jena Karlis",
-    title: "Store Owner",
-    avatar: "/testimonials-3.jpg",
-    rating: 5,
-    text: `Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.`,
-  },
-  {
-    name: "Matt Brandon",
-    title: "Freelancer",
-    avatar: "/testimonials-4.jpg",
-    rating: 4,
-    text: `Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore.`,
-  },
+  // {
+  //   name: "Jena Karlis",
+  //   title: "Store Owner",
+  //   avatar: "/testimonials-3.jpg",
+  //   rating: 5,
+  //   text: `Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.`,
+  // },
+  // {
+  //   name: "Matt Brandon",
+  //   title: "Freelancer",
+  //   avatar: "/testimonials-4.jpg",
+  //   rating: 4,
+  //   text: `Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore.`,
+  // },
 ];
 
 export default function Testimonials() {

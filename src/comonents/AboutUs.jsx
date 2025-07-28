@@ -10,22 +10,22 @@ export default function AboutUsSection() {
         <div>
           <h4 className="text-blue-600 font-semibold uppercase mb-2">More About Us</h4>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Voluptas enim suscipit temporibus
+            HireX
           </h2>
           <p className="text-gray-600 mb-6">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            HireX is a full-spectrum HR consultancy helping businesses scale with the right people, processes, and platforms.
+We partner with startups, SMEs, and enterprises to deliver:
           </p>
 
           {/* Feature List */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
             {[
-              'Lorem ipsum dolor sit amet',
-              'Incididunt ut labore et',
+              'Strategic Hiring',
+              'HR Consulting',
               'Consectetur adipiscing elit',
-              'Dolore magna aliqua',
-              'Sed do eiusmod tempor',
-              'Ut enim ad minim veniam',
+              'End-to-End Compliance',
+              'Agile HR Technology Solutions',
+              // 'Ut enim ad minim veniam',
             ].map((text, i) => (
               <div key={i} className="flex items-center space-x-2">
                 <CheckCircle className="text-blue-600 w-5 h-5" />
@@ -35,7 +35,7 @@ export default function AboutUsSection() {
           </div>
 
           {/* Author & Call */}
-          <div className="flex items-center gap-6 mt-8 flex-wrap">
+          {/* <div className="flex items-center gap-6 mt-8 flex-wrap">
             <div className="flex items-center gap-4">
               <Image
                 src="/avatar-1.png"
@@ -56,7 +56,7 @@ export default function AboutUsSection() {
                 <p className="font-bold text-gray-800">+123 456-789</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Right Images */}
