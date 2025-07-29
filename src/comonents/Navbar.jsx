@@ -21,9 +21,16 @@ export default function Navbar() {
 
   return (
     <header className="w-full flex justify-center bg-[#f6f9fc] py-6 px-4">
-      <nav className="bg-white fixed top-4 z-50 shadow-md rounded-full px-6 py-3 w-full max-w-7xl flex items-center justify-between">
+      <nav className="bg-white fixed top-4 z-50 shadow-md rounded-full px-6 py-6 w-full max-w-7xl flex items-center justify-between">
         {/* Logo */}
-        <div className="text-2xl font-semibold text-gray-800">HireX</div>
+       <a href="#hero" className="flex items-center h-10 overflow-hidden">
+  <img
+    src="/logo.png"
+    alt="HireX Logo"
+    className="h-40 w-auto"
+  />
+</a>
+
 
         {/* Nav Links */}
         <ul className="hidden md:flex items-center space-x-6 text-gray-700 font-medium">
@@ -31,7 +38,7 @@ export default function Navbar() {
           <li><a href="#about">About</a></li>
           {/* <li><a href="#features">Features</a></li> */}
           <li><a href="#services">Services</a></li>
-          <li><a href="#pricing">Pricing</a></li>
+          {/* <li><a href="#pricing">Pricing</a></li> */}
 
           {/* <li className="relative" ref={dropdownRef}>
             <button

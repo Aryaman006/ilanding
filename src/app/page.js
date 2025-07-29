@@ -47,9 +47,9 @@ export default function Home() {
 
       <HowItWorksSection/>
 
-      <section id="pricing">
+      {/* <section id="pricing">
         <PricingSection />
-      </section>
+      </section> */}
 
       {/* <section id="faq">
         <FaqSection />
